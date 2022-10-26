@@ -1,11 +1,30 @@
-body {background-color:pink;}
+body {background-color:pink;
+background-image: url(../Imagenes/utencillos.png);
+
+}
 
 .tituloprincipal1 {color: white}
+
 .ingredientes {color: white}
 .ingredientes {text-decoration: underline}
+
 .modoprep {text-decoration: underline;}
+
 .titulofotoplato {text-decoration: underline;}
 .titulofotoplato {font-size:100%;}
 p {text-align: center;}
 
 .tituloprincipal1 {background-color: fuchsia}
+
+header {background-color: green; border: 5px white dotted;}
+nav {background-color: orange;}
+section {background-color: yellow;}
+aside {background-color: blue;}
+footer {background-color: red;}
+.iconowspp {width: 50px;
+  position: fixed; bottom:10px;
+right: 15px;}
+
+.iconoface {width: 70px; }
+.iconoinstagram {width: 70px;}
+.iconotwitter {width: 70px;}
