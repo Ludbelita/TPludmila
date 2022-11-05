@@ -1,36 +1,72 @@
+@font-face { font-family: "moderna"
+             src: url("../fuentes/mod20.ttf")
+             format("truetype");
+           }
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@433&display=swap');
+
+.tituloprincipal1 { font-family: 'Caveat', cursive;}
+
+.contenido {font-family: 'Caveat', cursive;}
+
+
 body {background-color: withe;
       background-image: url(../Imagenes/fondococina.jpg);
 
 }
-.logopag {width: 200px;}
+.logopag {width: 15vw;}
 
-header { border: 5px white;
-         display: flex; flex-wrap: wrap; justify-content: space-between;
-background-color: #D2B4DE;
-
+header { border: 5vw white;
+         display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;
+         background-color: #D2B4DE;
 
        }
-         .iconoface {width: 50px; }
-         .iconoinstagram {width: 50px;}
-         .iconotwitter {width: 50px;}
+         .iconoface {width: 5vw; }
+         .iconoinstagram {width: 5vw;}
+         .iconotwitter {width: 5vw;}
          .tituloprincipal1 {font-size: 300%}
-         .Enlacesredes {}
 
 
 
 
-.iconowspp {width: 50px;
-  position: fixed; bottom:10px;
-right: 15px;}
+nav {background-color: #AF7AC5;
+     display: flex; justify-content: space-around;
+
+
+      }
+
+nav:hover {background-color: #A511AA;
+
+          }
+
+.iconowspp {width: 5vw;
+            position: fixed; bottom:5vw;
+            right: 5vw;
+          }
 
 
 
 footer { background-color: #C39BD3;
 
-display: flex; flex-wrap: wrap; justify-content: space-around; align-items:
+         display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;
+
         }
-.mapabarrio {width: 20%;}
+
+
 
 section {background-color: #C39BD3;}
 
 .titulofotoplato {display: flex; justify-content: center;}
+
+
+a:hover { color: pink;
+
+
+}
+
+
+.imglocgro {display: flex; flex-wrap: wrap; justify-content: center;}
