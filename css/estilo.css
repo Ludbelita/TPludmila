@@ -1,47 +1,91 @@
+
+/*fuentes de pagina */
+
 @font-face { font-family: "moderna"
              src: url("../fuentes/mod20.ttf")
              format("truetype");
            }
 
 
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@433&display=swap');
 
-.tituloprincipal1 { font-family: 'Caveat', cursive;}
+header { font-family: 'Caveat', cursive;}
+footer { font-family: 'Caveat', cursive;}
+nav {font-family: 'Caveat', cursive;}
+section {font-family: 'Caveat', cursive;}
+aside { font-family: 'Caveat',cursive;}
 
-.contenido {font-family: 'Caveat', cursive;}
 
-
-body {background-color: withe;
+/* fondo de pagina */
+body {background-color: white;
       background-image: url(../Imagenes/fondococina.jpg);
 
-}
+   }
+
+/* estilo de encabezado */
+
+header {background-color: ;
+        display: flex; flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+     }
+
 .logopag {width: 15vw;}
 
-header { border: 5vw white;
-         display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;
-         background-color: #D2B4DE;
 
-       }
-         .iconoface {width: 5vw; }
-         .iconoinstagram {width: 5vw;}
-         .iconotwitter {width: 5vw;}
-         .tituloprincipal1 {font-size: 300%}
+.iconoface {width: 5vw;}
 
 
+.iconoinstagram { width: 5vw;}
 
 
-nav {background-color: #AF7AC5;
-     display: flex; justify-content: space-around;
+.iconotwitter {width: 5vw;}
 
+
+/* estilo barra de navegacion */
+
+nav {background-color: #A38AAD;
+     display: flex;
+     flex-direction: row;
+     padding: 14px 20px;
+     justify-content: center;
+     justify-content: space-around;
+
+    }
+
+nav a {text-decoration: none;
 
       }
+a:hover { color: pink;}
 
 nav:hover {background-color: #A511AA;
 
           }
+
+/*estilo de parte principal */
+
+section { padding: 2%;
+          background-color: #C39BD3;
+      }
+
+aside { background-color: #B5A2BD;
+        padding: 2%;
+       }
+
+
+.juntitos { display: flex;
+           justify-content: flex-end;
+
+          }
+
+/* estilo de pie de pagina */
+
+footer { display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;
+
+        }
+.cajamapabarrio {padding: 5%; }
+
+/* icono flotante de whatsapp */
 
 .iconowspp {width: 5vw;
             position: fixed; bottom:5vw;
@@ -50,23 +94,19 @@ nav:hover {background-color: #A511AA;
 
 
 
-footer { background-color: #C39BD3;
-
-         display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;
-
-        }
-
-
-
-section {background-color: #C39BD3;}
-
-.titulofotoplato {display: flex; justify-content: center;}
-
-
-a:hover { color: pink;
-
 
 }
 
+/* diseño de celular desaparece fondo */
 
-.imglocgro {display: flex; flex-wrap: wrap; justify-content: center;}
+@media (min-width: 576px) {
+      body {background: none;}
+}
+
+/* elementos computadora desaparece pepino*/
+
+
+@media (min-width: 700px) {
+  .cajapepino {display: none;
+  }
+}
