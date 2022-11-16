@@ -54,7 +54,7 @@ nav {background-color: #A38AAD;
     }
 
 nav a {text-decoration: none;
-
+       color: #470264;
       }
 a:hover { color: pink;}
 
@@ -62,10 +62,19 @@ nav:hover {background-color: #A511AA;
 
           }
 
+
+
 /*estilo de parte principal */
+
+.flex-container {
+                 display: flex;
+
+}
+
 
 section { padding: 2%;
           background-color: #C39BD3;
+          display: flex; flex-wrap: wrap;
       }
 
 aside { background-color: #B5A2BD;
@@ -73,10 +82,6 @@ aside { background-color: #B5A2BD;
        }
 
 
-.juntitos { display: flex;
-           justify-content: flex-end;
-
-          }
 
 /* estilo de pie de pagina */
 
@@ -92,18 +97,32 @@ footer { display: flex; flex-wrap: wrap; justify-content: space-around; align-it
             right: 5vw;
           }
 
+/* diseño cards */
+
+.btn { background: #E2ABF9;}
+
+.card-body { text-align: center;}
+
+ .btn { color: #66038F}
 
 
+/*diseño para celular*/
+
+@media (max-width: 700px) {
+      .flex-container {
+        flex-direction: column;
+      }
+      .nav {flex-direction: column;
+    }
+}
+
+/* diseño de tablet desaparece fondo */
+
+@media (max-width: 768px) {
 
 }
 
-/* diseño de celular desaparece fondo */
-
-@media (min-width: 576px) {
-      body {background: none;}
-}
-
-/* elementos computadora desaparece pepino*/
+/* elementos computadora*/
 
 
 @media (min-width: 700px) {
