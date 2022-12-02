@@ -105,6 +105,10 @@ footer { display: flex; flex-wrap: wrap; justify-content: space-around; align-it
 
  .btn { color: #66038F}
 
+ .card:hover { transform: translateY(20px);
+
+ }
+
 
 /*diseño para celular*/
 
