@@ -18,6 +18,6 @@ document.getElementById("cartas").style.backgroundColor = "#312E2E";
   }
 
 
-function cartelinfo() { alert( "Autor: Ludmila Martinez  Correo: Ludmilam.martinez@outlook.com")
+function cartelinfo() { alert( "Autor: Ludmila Martinez ")
 
 }
